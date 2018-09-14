@@ -12,8 +12,6 @@
     * 电信：133、153、180、181、189 、177(4G)；149、173、174、199
     * 卫星通信：1349
     * 虚拟运营商：170
-    * http://www.cnblogs.com/zengxiangzhan/p/phone.html
-    * @author lan
     * @param $mobile
     * @return bool
     */
@@ -26,7 +24,6 @@
 	/**
     * 验证密码是否正确
     * 密码由6-16位大小写字母、数字和下划线组成
-    * @author lan
     * @param string $password
     * @return bool
     */
@@ -38,7 +35,6 @@
 ```php
 	/**
     * 验证邮箱是否正确
-    * @author lan
     * @param string $email
     * @return bool
     */
@@ -67,7 +63,6 @@
 	/**
     * 验证身份证号码格式是否正确
     * 仅支持二代身份证
-    * @author chiopin
     * @param string $idcard 身份证号码
     * @return boolean
     */
